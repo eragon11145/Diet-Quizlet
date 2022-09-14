@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Speed round</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<select id='Nature'>
+  <option value="Adamant">Adamant</option>
+  <option value="Lonely">Lonely</option>
+  <option value="Naughty">Naughty</option>
+  <option value="Brave">Brave</option>
+  <option value="Bold">Bold</option>
+  <option value="Impish">Impish</option>
+  <option value="Lax">Lax</option>
+  <option value="Relaxed">Relaxed</option>
+  <option value="Modest">Modest</option>
+  <option value="Mild">Mild</option>
+  <option value="Rash">Rash</option>
+  <option value="Quiet">Quiet</option>
+  <option value="Calm">Calm</option>
+  <option value="Gentle">Gentle</option>
+  <option value="Sassy">Sassy</option>  
+  <option value="Careful">Careful</option>
+  <option value="Timid">Timid</option>
+  <option value="Hasty">Hasty</option>
+  <option value="Jolly">Jolly</option>
+  <option value="Naive">Naive</option>
+  <option value="Docile">Docile</option>
+  <option value="Serious">Serious</option>
+  <option value="Hardy">Hardy</option>
+  <option value="Bashful">Bashful</option>
+  <option value="Quirky">Quirky</option>
+  </select>
+  <div class="dropdown">
+  <button class="dropbtn">This Project</button>
+  <div class="dropdown-content">
+    <a href="index.html">Pokemon Stat Game</a>
+    <a href="https://eragon11145.github.io/Wordle-Answers/">Wordle Answers</a>
+    <a href="https://eragon11145.github.io/Teams/">VGC Randomizer</a>
+    <a href='calculator.html'>Stat Calculator</a>
+  </div>
+</div>
+  </head>
+      
+    <h1>Pokemon Stat Calculator</h1>
+    <p>Input the Pokemon and the EVs and IVs and hit go!</p>
+  <p id='total'> </p>
+    <input type='text' id='answer'>
+  <script src="reversecalculator.js">
+    </script>
+  <body>
+    <p id="Pokemon"> </p>
+     <table> <tr><td><p id="Health"></td> </p>
+  <td><p id="Attack"> </p></td>
+  <td><p id="Defense"> </p></td>
+  <td><p id="SpecialAttack"> </p></td>
+  <td><p id="SpecialDefense"> </p></td>
+  <td><p id="Speed"> </p></td>
+  <td><p id="Total"> </p></td></tr>
+     <tr><td><p id="Health3"> </p></td>
+  <td><p id="Attack3"> </p></td>
+  <td><p id="Defense3"> </p></td>
+  <td><p id="SpecialAttack3"> </p></td>
+  <td><p id="SpecialDefense3"> </p></td>
+  <td><p id="Speed3"> </p></td>
+  </tr></table>
+  <p id='message'> </p>
+  <p>Level:</p>
+  <input type="text" id='Level'>
+  <div class='EV'><p>EVs(0-252):</p></div>
+    <p>HP</p> <p>Attack</p><p>Defense</p><p>Special Attack</p> <p>Special Defense</p> <p>Speed</p>
+
+  
+  <input type='text' id="Health1">
+  <input type='text' id="Attack1">
+  <input type='text' id="Defense1">
+  <input type='text' id="SpecialAttack1">   
+  <input type='text' id="SpecialDefense1">
+  <input type='text' id="Speed1">
+    <div class='IVs'>
+  <p>Stat Value</p> </div>
+  <p>HP</p><p>Attack</p><p>Defense</p> <p>Special Attack</p><p>Special Defense</p><p>Speed</p>
+
+   
+      <input type='text' id="Health2">
+  <input type='text' id="Attack2">
+  <input type='text' id="Defense2">
+  <input type='text' id="SpecialAttack2">
+  <input type='text' id="SpecialDefense2">
+  <input type='text' id="Speed2">
+    <script src="reversecalculator.js">
+    </script>
+    <p id='Done'> </p>
+    <button id='guess' type='button' onclick="stats(document.getElementById('answer').value)">Calculate!</button>
+    <script src="reversecalculator.js">
+    </script>
+  </body>
+</html>
