@@ -16,7 +16,7 @@ if (document.getElementById('Sets').value=='4'){
   x=75+Math.floor(15*Math.random())
 }
 if (document.getElementById('Sets').value=='all'){
-  x=Math.floor(80*Math.random())
+  x=Math.floor(90*Math.random())
 }
 y=Math.floor(28*Math.random())
 document.getElementById('root').innerHTML=definitions[x]
