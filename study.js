@@ -8,7 +8,7 @@ y=Math.floor(28*Math.random())
   document.getElementById('definition').innerHTML=definitions[x]
 }
 function next(){
-  if (x<74){
+  if (x<89){
     x+=1
   }
   document.getElementById('root').innerHTML=roots[x]+':'
