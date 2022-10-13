@@ -21,6 +21,28 @@ function previous(){
   document.getElementById('root').innerHTML=roots[x] +':'
   document.getElementById('definition').innerHTML=definitions[x] 
 }
-function changeSet(){
-  
+function jumpto(){
+  if (document.getElementById('Sets').value=='1'){
+  x=0
+}
+if (document.getElementById('Sets').value=='2'){
+  x=28
+}
+if (document.getElementById('Sets').value=='3'){
+  x=44
+}
+if (document.getElementById('Sets').value=='4'){
+  x=75
+}
+if (document.getElementById('Sets').value=='5'){
+  x=90
+}
+if (document.getElementById('Sets').value=='6'){
+  x=101
+}
+if (document.getElementById('Sets').value=='all'){
+  x=0
+}
+   document.getElementById('root').innerHTML=roots[x]+':'
+  document.getElementById('definition').innerHTML=definitions[x] 
 }
